@@ -5,7 +5,7 @@ function Login() {
 
   return (
    <div>
-      <div id="formContent">
+      <div id="formContent" >
         <a href="/Login"><h2 className="inactive underlineHover"> Sign In </h2></a>
         <h2 className="active">Sign Up </h2>
       

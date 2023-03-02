@@ -15,7 +15,9 @@ import OrderChange from "./components/OrderChange";
 import OrderCancel from "./components/OrderCancel";
 import Withdraw from "./components/Withdraw";
 import Deposit from "./components/Deposit";
-
+import Policy from "./components/Policy";
+import Term from "./components/Term";
+import FAQ from "./components/FAQ";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
 
@@ -67,6 +69,15 @@ function App() {
             <ListTrade />
           </Route>
         </Switch>
+        <Route exact path="/Policy">
+            <Policy />
+          </Route>
+        <Route exact path="/Term">
+            <Term />
+          </Route>
+          <Route exact path="/FAQ">
+            <FAQ />
+          </Route>
         <Footer />
       </div>
     </Router>

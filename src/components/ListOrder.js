@@ -1,4 +1,4 @@
-import "../style/buy.css";
+// import "../style/buy.css";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Top from "./Top";

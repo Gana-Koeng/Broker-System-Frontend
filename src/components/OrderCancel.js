@@ -1,5 +1,6 @@
 // import "../style/Order.css";
 
+import React from "react";
 import BuyForm from "./BuyForm";
 import ShowData from "./ShowData";
 
@@ -24,7 +25,7 @@ function MyForm() {
           <div id="myDIV">
 
 
-            <button class="btn"> <a
+            <button className="btn"> <a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -34,7 +35,7 @@ function MyForm() {
             >
               Sell
             </a></button>
-            <button class="btn"><a
+            <button className="btn"><a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -47,7 +48,7 @@ function MyForm() {
             </a></button>
            
            
-            <button class="btn"><a
+            <button className="btn"><a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -57,7 +58,7 @@ function MyForm() {
             >
               Change
             </a></button>
-            <button class="btn active"><a
+            <button className="btn active"><a
               style={{
                 color: "white",
                 paddingLeft: 13,
@@ -76,7 +77,7 @@ function MyForm() {
           </div> */}
       </div>
       <div className="right-v2">
-        <div class="title">Base Price</div>
+        <div className="title">Base Price</div>
         <div className="sub-title">You can choose price between: </div>
               
               <div className="Max-min">
