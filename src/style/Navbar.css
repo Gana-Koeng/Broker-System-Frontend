@@ -1,5 +1,5 @@
 * {
-  
+	font-family: sans-serif;
 	list-style-type: none;
 	box-sizing: border-box;
 	}
@@ -8,27 +8,27 @@
 	.navbar-main {
 	
 	/* background-color: #333; */
-	  position: fixed;
-		left: 50%;
-	    top: 0;
-		margin-left: -560px;
-	  /* background-color: #056fb5; */
-	}
-	.navbar-main a{
+		position: fixed;
+	  	left: 50%;
+		top: 0;
+	  	margin-left: -560px;
+		background-color: #056fb5;
+  }
+  .navbar-main a{
 	
-	  font-size: 18px;
-	  font-weight: 550;
-	  text-align: center;
-	}
-	
-	.menu {
+		font-size: 17px;
+		  font-weight: 500;
+		  text-align: center;
+  }
+  
+  .menu {
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	
 	
-  
-  
+
+
 	
 	}
 	
@@ -68,15 +68,15 @@
 	
 	.sub-menu li:last-child {
 	border-bottom: 0;
-	}
-	
-	
-	.sub-menu li:hover {
-	background: rgb(79, 26, 26);
-	}
-	
-	
-	.menu > li:hover .sub-menu li{
+  }
+  
+  
+  .sub-menu li:hover {
+	background: rgb(54, 52, 52);
+  }
+  
+  
+  .menu > li:hover .sub-menu li{
 	/*display: block;*/
 	transform: scale(1);
 	}

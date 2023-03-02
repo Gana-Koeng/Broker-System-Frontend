@@ -1,4 +1,8 @@
 
 .Main-Page {
-    background-color:#027b9a;
+    background-color: rgb(83, 164, 91);
+}
+div[id="root"]{
+   
+    margin-top: -16px;
 }

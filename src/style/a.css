@@ -4,6 +4,7 @@
   width: 1120px;
   margin-right: auto;
   margin-left: auto;
+  background-color:#027b9a ;
   
 }
 .CurrentMarket table.blueTable .title-CurrentMarket{
@@ -23,7 +24,7 @@
   margin-top: 60px;
   height: 300px;
   text-align: center;
-  background-color : #056fb5;
+  background-color : #027b9a;
 }
 .CurrentMarket table.blueTable td{
   border: 1px solid #d5dfe4;
@@ -49,25 +50,25 @@
   font-size: 18px;
   font-weight: bold;
   color: #f6eba3e1;
-  border-left: 0px solid #0773d2;
+  border-left: 0px solid #e5d331;
 }
 .CurrentMarket table.blueTable thead th:first-child {
   border-left: none;
 }
 
 .CurrentMarket table.blueTable tfoot {
-  font-size: 14px;
+ 
   font-weight: bold;
   color: #FFFFFF;
-  background: #0f65af;
+  background: #027b9a;
   background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
   border: 2px solid #b5dff4;
 }
 .CurrentMarket table.blueTable tfoot td {
-  font-size: 16px;
-  background-color: #0f65af
+  font-size: 18px;
+  background-color: #027b9a; 
 }
 .CurrentMarket table.blueTable tfoot .links {
   text-align: right;
@@ -75,9 +76,25 @@
 }
 .CurrentMarket table.blueTable tfoot .links a{
   display: inline-block;
-  background: #189df5;
-  color: #FFFFFF;
+  background: #d8d8d8;
+  border: 2px solid black;
+  color: #000000;
   padding: 2px 8px;
   border-radius: 5px;
   
+}
+.CurrentMarket .title-CurrentMarket{
+  font-size: 26px;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 61px;
+  border: 2px solid  #027b9a ;
+  color: #FFFFFF;
+  margin-left:auto ;
+  margin-right: auto;
+  
+ 
+}
+.CurrentMarket .title-CurrentMarket p{
+  margin-top: 50px ; 
 }

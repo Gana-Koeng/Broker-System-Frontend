@@ -6,7 +6,7 @@ import ShowData from "./ShowData";
 
 function MyForm() {
   return (
-    <div className="App">
+    <div className="App-Order">
       <div className="container">
         <div className="right">
           <div className="title">List All Data</div>
