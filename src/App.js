@@ -1,6 +1,6 @@
 //Pages
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Navbar from "./layout/Navbar";
+import Footer from "./layout/Footer";
 import CurrentMarket from "./components/CurrentMarket";
 import RecentTrade from "./components/RecentTrade";
 import Top from "./components/Top";
