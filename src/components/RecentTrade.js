@@ -1,3 +1,4 @@
+import React from "react";
 import "../style/CurrentMarket.css";
 import Sell from "./Sell";
 

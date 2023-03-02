@@ -23,8 +23,8 @@ import React from "react";
 
 function App() {
   return (
-    <Router className="Main-Page">
-      <div>
+    <Router>
+      <div style={{backgroundColor:"#027b9a"}}>
         <Navbar />
         <Switch>
           <Route exact path="/">
@@ -37,11 +37,11 @@ function App() {
             <Deposit />
           </Route>
           <Route exact path="/Login">
-            <div id="root"></div>
+      
             <Login />
           </Route>
           <Route exact path="/Register">
-            <div id="root"></div>
+     
             <Register />
           </Route>
           <Route exact path="/Order/Sell">

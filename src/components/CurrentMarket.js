@@ -28,12 +28,12 @@ function Homepage() {
           <tr>
             <td colSpan={6}>
               <div class="links">
-                <a href="#">&laquo;</a>{" "}
-                <a class="active" href="#">
+                <a href="/">&laquo;</a>{" "}
+                <a class="active" href="/">
                   1
                 </a>{" "}
-                <a href="#">2</a> <a href="#">3</a> <a href="#">4</a>{" "}
-                <a href="#">&raquo;</a>
+                <a href="/">2</a> <a href="/">3</a> <a href="/">4</a>{" "}
+                <a href="/">&raquo;</a>
               </div>
             </td>
           </tr>
