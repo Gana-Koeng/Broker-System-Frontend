@@ -2,7 +2,7 @@ import React from 'react';
 
 function Withdraw (){
     return (
-        <div style={{height:"1000px"}}>
+        <div style={{height:"1000px",marginTop: "15%"}}>
             
 
       

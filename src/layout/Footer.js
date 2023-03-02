@@ -58,7 +58,7 @@ function Footer() {
         </div>
         <div className="footer-content-column">
           <div className="footer-menu">
-            <h2 className="footer-menu-name"> Quick Links</h2>
+            <h2 className="footer-menu-name"> Legal</h2>
             <ul id="menu-quick-links" className="footer-menu-list">
               <li className="menu-item menu-item-type-custom menu-item-object-custom">
                 <a target="_blank" rel="noopener noreferrer" href="/">Privacy Notice</a>
@@ -66,13 +66,18 @@ function Footer() {
               <li className="menu-item menu-item-type-custom menu-item-object-custom">
                 <a target="_blank" rel="noopener noreferrer" href="/">Terms of Use</a>
               </li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/">Blog</a>
+            </ul>
+          </div>
+          <div className="footer-menu">
+            <h2 className="footer-menu-name">Address</h2>
+            <ul id="menu-quick-links" className="footer-menu-list">
+              <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Institute+of+Technology+of+Cambodia/@11.5703975,104.895897,17z/data=!3m1!4b1!4m6!3m5!1s0x3109517388680e15:0x63057e6682968f5!8m2!3d11.5703975!4d104.8980857!16zL20vMDZ5dmhz">
+                  Institute Technology of Cambodia</a>
               </li>
-              <li className="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                <a href="/">Customers</a></li>
-              <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="/">Reviews</a>
+              <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/CSX+Building,+St+Preah+Mohaksat+Treiyani+Kossamak,+Phnom+Penh/@11.574244,104.922575,17z/data=!3m1!4b1!4m6!3m5!1s0x31095145049886eb:0xf13a079b7458ee08!8m2!3d11.574244!4d104.9247637!16s%2Fg%2F12hxgdbjj">
+                CSX Building</a>
               </li>
             </ul>
           </div>
@@ -81,15 +86,14 @@ function Footer() {
           <div className="footer-call-to-action">
             <h2 className="footer-call-to-action-title"> Let's Chat</h2>
             <p className="footer-call-to-action-description"> Have a support question?</p>
-            <a className="footer-call-to-action-button button" href="/" target="_self"> Get in Touch </a>
+            <a className="footer-call-to-action-button button" href="mailto:ganakoeng1111@gmail.com" target="_self"> Get in Touch </a>
           
           </div>
           <div className="footer-call-to-action">
             <h2 className="footer-call-to-action-title"> You Call Us</h2>
             <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" href="tel:+855968639053" target="_self"> 
-            <img src="https://cdn-icons-png.flaticon.com/128/3343/3343254.png" width={30} alt="logo" /> </a></p>
-            <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" href="mailto:ganakoeng1111@gmail.com" target="_self"> 
-            <img src="https://cdn-icons-png.flaticon.com/128/944/944948.png" width={30} alt="logo" /></a></p>
+            +855(0) 96 863 9053 </a></p>
+
           </div>
         </div>
         <div className="footer-social-links"> <svg className="footer-social-amoeba-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 54">

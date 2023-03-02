@@ -1,3 +1,4 @@
+import React from "react";
 import "../style/SignUp.css";
 
 import BuyForm from "./BuyForm";
@@ -15,7 +16,7 @@ function MyForm() {
           <div className="title">Choose Your Option</div>
           <div className="sub-container">
             <div id="myDIV">
-              <button class="btn">
+              <button className="btn">
                 {" "}
                 <a
                   style={{
@@ -28,7 +29,7 @@ function MyForm() {
                   Sell
                 </a>
               </button>
-              <button class="btn active">
+              <button className="btn active">
                 <a
                   style={{
                     color: "white",
@@ -41,7 +42,7 @@ function MyForm() {
                 </a>
               </button>
 
-              <button class="btn">
+              <button className="btn">
                 <a
                   style={{
                     color: "white",
@@ -53,7 +54,7 @@ function MyForm() {
                   Change
                 </a>
               </button>
-              <button class="btn">
+              <button className="btn">
                 <a
                   style={{
                     color: "white",
@@ -70,7 +71,7 @@ function MyForm() {
           </div>
         </div> 
         <div className="right-v2">
-        <div class="title">Base Price</div>
+        <div className="title">Base Price</div>
               <div className="sub-title">You can choose price between: </div>
               
               <div className="Max-min">

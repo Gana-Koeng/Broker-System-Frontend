@@ -10,7 +10,7 @@
   margin-right: auto;
 
   padding: 20px;
-  margin-top: 80px;
+  margin-top: 15%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
