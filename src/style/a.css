@@ -1,0 +1,83 @@
+.CurrentMarket{
+  height: 1000px;
+  /* background-color: #7cbbe6; */
+  width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+.CurrentMarket table.blueTable .title-CurrentMarket{
+  font-size: 20px;
+  font-weight: bold;
+  color: #e5d331;
+  
+}
+/* .header-CurrentMarket{
+  color: #111314;
+  background-color: #111314;
+} */
+.CurrentMarket table.blueTable {
+  border: 3px solid #b5dff4;
+  width: 1120px;
+  border-collapse: collapse;
+  margin-top: 60px;
+  height: 300px;
+  text-align: center;
+  background-color : #056fb5;
+}
+.CurrentMarket table.blueTable td{
+  border: 1px solid #d5dfe4;
+  padding: 20px 20px;
+  color: #edf3f6;
+  font-size: 16px;
+
+}
+.CurrentMarket table.blueTable th {
+  border: 3px solid #b5dff4;
+  padding: 20px 20px;
+  color: #edf3f6;
+  font-size: 16px;
+
+}
+.CurrentMarket table.blueTable tbody td  {
+  font-size: 16px;
+
+}
+
+
+.CurrentMarket table.blueTable thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f6eba3e1;
+  border-left: 0px solid #0773d2;
+}
+.CurrentMarket table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+.CurrentMarket table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #0f65af;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border: 2px solid #b5dff4;
+}
+.CurrentMarket table.blueTable tfoot td {
+  font-size: 16px;
+  background-color: #0f65af
+}
+.CurrentMarket table.blueTable tfoot .links {
+  text-align: right;
+ 
+}
+.CurrentMarket table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #189df5;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+  
+}

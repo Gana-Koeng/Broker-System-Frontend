@@ -1,4 +1,5 @@
 //Pages
+import "./style/App.css";
 import Navbar from "./layout/Navbar";
 import Footer from "./layout/Footer";
 import CurrentMarket from "./components/CurrentMarket";
@@ -20,8 +21,8 @@ import React from "react";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <Router className="Main-Page">
+      <div>
         <Navbar />
         <Switch>
           <Route exact path="/">
