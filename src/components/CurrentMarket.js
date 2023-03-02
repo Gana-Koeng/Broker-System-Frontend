@@ -1,24 +1,8 @@
 import "../style/a.css";
-import React from "react";
+
 import Clock from "react-live-clock";
-class CurrentMarket extends React.Component {
-  state = {
-    date: "",
-  };
-
-  componentDidMount() {
-    this.getTime();
-  }
-
-  getTime = () => {
-    var date = new Date(),
-      date =
-        date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
-
-    this.setState({ date });
-  };
-
-  render() {
+function CurrentMarket() {
+ 
     return (
       <div className="CurrentMarket">
         <div className="title-CurrentMarket">
@@ -139,5 +123,5 @@ class CurrentMarket extends React.Component {
       </div>
     );
   }
-}
+
 export default CurrentMarket;

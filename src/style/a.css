@@ -1,5 +1,5 @@
 .CurrentMarket{
-  height: 1200px;
+  height: 1000px;
   /* background-color: #7cbbe6; */
   width: 1120px;
   margin-right: auto;
@@ -21,21 +21,21 @@
   border: 3px solid #b5dff4;
   width: 1120px;
   border-collapse: collapse;
-  margin-top: 60px;
+  margin-top: 140px;
   height: 300px;
   text-align: center;
   background-color : #056fb5;
 }
 .CurrentMarket table.blueTable td{
   border: 1px solid #d5dfe4;
-  padding: 20px 20px;
+  padding: 10px 20px;
   color: #edf3f6;
   font-size: 16px;
 
 }
 .CurrentMarket table.blueTable th {
   border: 3px solid #b5dff4;
-  padding: 20px 20px;
+  padding: 10px 20px;
   color: #edf3f6;
   font-size: 16px;
 
@@ -87,7 +87,7 @@
   color: #FFFFFF;
   margin-left:auto ;
   margin-right: auto; 
-  height: 150px;
+  height: 50px;
   font-weight: 500;
 }
 .title-CurrentMarket .Center p{
