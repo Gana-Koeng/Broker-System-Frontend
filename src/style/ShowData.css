@@ -1,0 +1,35 @@
+.demTable {
+    border:1px outset #9a8d8d;
+    border-collapse:collapse;
+    padding:5px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 300px;
+}
+.demTable th {
+    border:1px outset #9a8d8d;
+    padding:5px;
+    background: #01d28e;
+    color: #ffffff;
+}
+.demTable td {
+    border:1px outset #9a8d8d;
+    text-align:center;
+    padding:5px;
+    background: #f0f0f0;
+    color: #060606;
+}
+.total-order{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 19px;
+    font-weight: 600;
+    
+   
+}
+.total-order p{
+    margin-top: 10px;
+    border: 2px solid rgb(68, 227, 137);
+    border-radius:5px ;
+    padding: 8px;
+}
