@@ -5,7 +5,7 @@ function Login() {
 
   return (
    <div>
-      <div id="formContent" style={{marginTop: "15%"}}>
+      <div id="formContent" >
         <h2 className="active"> Sign In </h2>
         <a href="/Register"><h2 className="inactive underlineHover">Sign Up </h2></a>
       

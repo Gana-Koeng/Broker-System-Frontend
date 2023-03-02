@@ -61,10 +61,13 @@ function Footer() {
             <h2 className="footer-menu-name"> Legal</h2>
             <ul id="menu-quick-links" className="footer-menu-list">
               <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                <a target="_blank" rel="noopener noreferrer" href="/">Privacy Notice</a>
+                <a href="/Policy">Privacy Notice</a>
               </li>
               <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                <a target="_blank" rel="noopener noreferrer" href="/">Terms of Use</a>
+                <a  href="/Term">Terms of Use</a>
+              </li>
+              <li className="menu-item menu-item-type-custom menu-item-object-custom">
+                <a  href="/FAQ">FAQ</a>
               </li>
             </ul>
           </div>

@@ -164,12 +164,9 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
-      </ul><div>
-        <a href="/">
-          <img src="https://cdn-icons-png.flaticon.com/128/444/444689.png" alt="logo" />
-        </a>
-      </div>
+      </ul>
     </nav>
+ 
   );
 };
 
