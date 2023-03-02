@@ -6,7 +6,6 @@ import RecentTrade from "./components/RecentTrade";
 import Top from "./components/Top";
 import ListOrder from "./components/ListOrder";
 import ListTrade from "./components/ListTrade";
-import Select from "./components/Order";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import OrderSell from "./components/OrderSell";
@@ -27,9 +26,6 @@ function App() {
         <Switch>
           <Route exact path="/">
             <CurrentMarket />
-          </Route>
-          <Route exact path="/Order">
-            <Select />
           </Route>
           <Route exact path="/Withdraw">
             <Withdraw />
