@@ -3,6 +3,9 @@ import "../style/a.css";
 function Homepage() {
   return (
     <div className="CurrentMarket">
+     <div className="title-CurrentMarket">
+          <p>CSX Index</p>
+     </div>
       <table class="blueTable">
         <thead>
           <th className="title-CurrentMarket" colSpan={6}>

@@ -1,24 +1,30 @@
-.Top > table {
-  border: 2px solid rgb(33, 34, 33);
-  width: 1120px;
-  height: 400px;
-  text-align: center;
-  justify-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
- 
-}
+
 
 .Top > th {
   border-bottom: 2px solid black; 
-  
+ 
 }
 
 .Top >td {
   text-align: center;
  
 }
-.Top{
+.Top {
   height:1000px ;
+  background-color: #0f65af ;
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.Top .demTable{
+  height:600px ;
+  background-color: #0f65af ;
+  width: 1100px;
+  border: 3px solid rgb(249, 241, 241);
+ 
+}
+.Top .top-table{
+  padding-top: 50px;
+  margin-left: -20px ;
 }

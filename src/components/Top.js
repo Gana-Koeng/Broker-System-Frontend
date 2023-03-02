@@ -6,7 +6,8 @@ import React from "react";
 function App() {
   return (
     <div className="Top">
-      <table class="demTable">
+      <div className="top-table">
+        <table class="demTable">
         <thead>
           <tr>
             <th>ID</th>
@@ -83,6 +84,8 @@ function App() {
           
         </tbody>
       </table>
+      </div>
+      
     </div>
   );
 }
