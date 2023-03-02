@@ -1,5 +1,5 @@
 .CurrentMarket{
-  height: 1000px;
+  height: 1200px;
   /* background-color: #7cbbe6; */
   width: 1120px;
   margin-right: auto;
@@ -83,18 +83,30 @@
   border-radius: 5px;
   
 }
-.CurrentMarket .title-CurrentMarket{
-  font-size: 26px;
-  text-align: center;
-  font-weight: 800;
-  margin-top: 61px;
-  border: 2px solid  #027b9a ;
+
+.title-CurrentMarket{
   color: #FFFFFF;
   margin-left:auto ;
-  margin-right: auto;
-  
- 
+  margin-right: auto; 
+  height: 150px;
+  font-weight: 500;
 }
-.CurrentMarket .title-CurrentMarket p{
-  margin-top: 50px ; 
+.title-CurrentMarket .Center p{
+  font-size: 26px;
+  text-align: center;
+  padding-top: 100px;
+}
+.title-CurrentMarket .Right{
+  
+  margin-left: 850px;
+  margin-top: -30px;
+  font-size: 20px;
+  
+}
+.title-CurrentMarket .Left{
+  
+  margin-top: -80px;
+  margin-left: 10px;
+
+  
 }

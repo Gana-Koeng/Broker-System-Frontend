@@ -7,8 +7,6 @@ function Homepage() {
     return (
      <div className="Home-main"> 
      
-         
-
           <div className='Parents'>
             <div className='above-left'>
                  < Sell />
