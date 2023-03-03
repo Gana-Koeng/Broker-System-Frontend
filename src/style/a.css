@@ -8,7 +8,7 @@
   
 }
 .CurrentMarket table.blueTable .title-CurrentMarket{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   color: #e5d331;
   
@@ -30,7 +30,7 @@
   border: 1px solid #d5dfe4;
   padding: 20px 20px;
   color: #edf3f6;
-  font-size: 16px;
+  font-size: 14px;
 
 }
 .CurrentMarket table.blueTable th {
@@ -47,9 +47,9 @@
 
 
 .CurrentMarket table.blueTable thead th {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  color: #f6eba3e1;
+  color: #06004de1;
   border-left: 0px solid #e5d331;
 }
 .CurrentMarket table.blueTable thead th:first-child {

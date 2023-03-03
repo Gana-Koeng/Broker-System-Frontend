@@ -12,13 +12,13 @@ function CurrentMarket () {
            
           <div className="Right">
             <p>Date: <Clock format={"dddd:DD:MMM:yy"} ticking={true}
-                timezone={"Bangkok/Pacific"} /></p>
+                timezone={"PhnomPenh/Pacific"} /></p>
             <p>
               Time:{" "}
               <Clock
                 format={"hh:mm:ss A"}
                 ticking={true}
-                timezone={"Bangkok/Pacific"}
+                timezone={"PhnomPenh/Pacific"}
               />
             </p>
           </div>
@@ -26,7 +26,7 @@ function CurrentMarket () {
             <img src="https://cdn-icons-png.flaticon.com/128/444/444689.png" alt="" />
           </div>
         </div>
-        <table class="blueTable">
+        <table className="blueTable">
           <thead>
             <th className="title-CurrentMarket" colSpan={6}>
               Real Time Quotation
@@ -50,9 +50,9 @@ function CurrentMarket () {
           <tfoot>
             <tr>
               <td colSpan={6}>
-                <div class="links">
+                <div className="links">
                   <a href="#">&laquo;</a>{" "}
-                  <a class="active" href="#">
+                  <a className="active" href="#">
                     1
                   </a>{" "}
                   <a href="#">2</a> <a href="#">3</a> <a href="#">4</a>{" "}
