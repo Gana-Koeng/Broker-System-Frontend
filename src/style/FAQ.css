@@ -1,14 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-body {
-  color: #333;
-  background: #fcfcfc;
-  font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
+.faq{
+  margin-top: 5%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: #027b9a;
+  height: 800px;
+  width: 1120px;
 }
 
 .faq-header{
   font-size: 42px;
+  color: white;
   border-bottom: 1px dotted #ccc;
   padding: 24px;
 }
@@ -19,6 +22,7 @@ body {
 
 .faq-question {
   padding: 20px 0;
+  color: white;
   border-bottom: 1px dotted #ccc;
 }
 
@@ -36,6 +40,7 @@ body {
   font-size: 20px;
   padding: 0px 14px;
   margin: 0 40px;
+  color: rgb(255, 255, 255);
   height: 0;
   overflow: hidden;
   z-index: -1;

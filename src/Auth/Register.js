@@ -4,7 +4,7 @@ import React from "react";
 function Login() {
 
   return (
-   <div>
+    <div className="loginbody">
       <div id="formContent" >
         <a href="/Login"><h2 className="inactive underlineHover"> Sign In </h2></a>
         <h2 className="active">Sign Up </h2>

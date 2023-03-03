@@ -8,12 +8,12 @@ function TradeInfo() {
     <div className="trade">
     <table className="TradeInfo">
     <tr>
-    <th><Clock format={"DD:MMM:yy"} ticking={true}
+    <th><Clock format={"DD-MMM-yy"} ticking={true}
                 timezone={"PhnomPenh/Pacific"} /></th>
     <td> </td>
     </tr>
     <tr>
-    <th colSpan={2} style={{textAlign:'center' ,color:"gold", backgroundColor:'#027b9a'}}>Price Information</th>
+    <th colSpan={2} style={{textAlign:'center',textTransform:"uppercase" ,color:"gold", backgroundColor:'#027b9a'}}>Price Information</th>
         </tr>
     <tr>
     <th>Current Price</th>
@@ -44,7 +44,7 @@ function TradeInfo() {
     <td>5000</td>
     </tr>
     <tr>
-    <th colSpan={2} style={{textAlign:'center' ,color:"gold", backgroundColor:'#027b9a'}}>Trade Information</th>
+    <th colSpan={2} style={{textAlign:'center' ,color:"gold", backgroundColor:'#027b9a',textTransform:"uppercase"}}>Trade Information</th>
         </tr>
     <tr>
     <th>Time</th>

@@ -41,6 +41,7 @@ input[placeholder="Input price..."] {
 .submit > input {
   color: white;
   padding: 3px;
+  
   font-size: 16px;
   border-radius: 5px;
   width: 180px;
@@ -73,16 +74,17 @@ input[placeholder="Input price..."] {
   color: white;
 }
 .title {
+  text-transform: uppercase;
   text-align: center;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 500;
   text-decoration: underline;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .right-v2 .title {
   text-align: center;
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 500;
   text-decoration: underline;
 }
 .Max-min {
@@ -90,16 +92,18 @@ input[placeholder="Input price..."] {
   margin-top: 20px;
   margin-left: 30px;
   margin-right: 19px;
-  font-weight: 600;
+  font-weight: 500;
  
   
 }
 .Max-min p {
-  
+  text-transform: uppercase;
   margin-top: 10px;
-  border: 2px solid rgb(236, 11, 11);
+  color: #000000;
+  border: 2px solid rgb(0, 0, 0);
   border-radius:5px ;
   padding: 8px;
+  background-color: wheat;
 
 }
  
@@ -108,7 +112,7 @@ input[placeholder="Input price..."] {
 .right-v2 .sub-title {
   text-align: center;
   font-size: 20px;
-
+  text-transform: uppercase;
   margin-top: 20px;
   max-width: 300px;
 }
@@ -131,7 +135,7 @@ input[placeholder="Input price..."] {
   grid-area: 1 / 2 / 2 / 3;
   height: 900px;
   width: 350px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .right-v2 {
   grid-area: 1 / 4 / 2 / 5;
@@ -143,7 +147,7 @@ input[placeholder="Input price..."] {
   height: 380px;
   width: 280px;
   margin-top: 3px;
-  color: white;
+  color: rgb(0, 0, 0);
  
 }
 .sub-buy {
@@ -178,12 +182,12 @@ input[placeholder="Acc Name"] {
 
 #customers td,
 #customers th {
-  border: 1px solid #ddd;
+  border: 2px solid #000000;
   padding: 8px;
 }
 
 #customers tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: wheat;
 }
 
 #customers tr:hover {
@@ -195,9 +199,10 @@ input[placeholder="Acc Name"] {
   padding-bottom: 12px;
   text-align: left;
   background-color: #027b9a;
-  color: white;
+  color: gold;
 }
 .title-balance {
+  text-transform: uppercase;
   text-align: center;
   font-size: 26px;
   font-weight: 500;
@@ -208,6 +213,7 @@ input[placeholder="Acc Name"] {
   padding: 8px 20px;
   font-size: 20px;
   text-align: center;
+  text-transform: uppercase;
   cursor: pointer;
   outline: none;
   color: #fff;

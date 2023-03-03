@@ -2,7 +2,7 @@ import React from "react"
 
 function Policy (){
     return (
-        <div style={{marginTop:"5%",marginBottom:"5%", marginLeft:"auto", marginRight:"auto" , width: "1120px"}}>
+        <div style={{marginTop:"2%", marginLeft:"auto", marginRight:"auto" , width: "1120px",backgroundColor:"#027b9a",color:'white'}}>
             <h2>Privacy Policy of <span className="website_url">http://localhost:3000/</span></h2>
 
 <p>At <span className="website_name">Broker System</span>, we collect and manage user data according to the following Privacy Policy.</p>

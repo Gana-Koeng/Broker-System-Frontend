@@ -12,7 +12,7 @@ function CurrentQuo() {
           <th>Expected Quantity:</th>
         </tr>
       </table>
-      <h3 style={{textAlign:'center', color:'gold'}}>Current Quantations & Remaining Quantity of Orders </h3>
+      <h3 style={{textAlign:'center', color:'gold',textTransform:"uppercase"}}>Current Quantations & Remaining Quantity of Orders </h3>
 
     </div>
     <div className="quo">

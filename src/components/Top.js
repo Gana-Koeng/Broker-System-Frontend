@@ -1,94 +1,81 @@
 import "../style/Top.css";
-// import axios from "axios";
 import React from "react";
-//import React, { useEffect, useState } from "react";
+
+
 
 function App() {
   return (
-    <div className="Top">
-      <div className="title-Top">               
-           <p>Top Buy & Sell Broker</p>                 
-       </div>
-      <div className="top-table">
-        <table class="demTable">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Sell Member</th>
-            <th>Quality</th>
-            <th>%</th>
-            <th>Buy Member</th>
-            <th>Quality</th>
-            <th>%</th>
-            <th>Total</th>
-          </tr>
-        </thead>
-        <tbody className="Element">
-          <tr>
-            <td>1.</td>
-            <td>500</td>
-            <td>56</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>2.</td>
-            <td>500</td>
-            <td>56</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>3.</td>
-            <td>500</td>
-            <td>56</td>
-            <td>56</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>4.</td>
-            <td>500</td>
-            <td>56</td>
-            <td>56</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>5.</td>
-            <td>500</td>
-            <td>56</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-          </tr>
-          <tr>
-            <td>6.</td>
-            <td>500</td>
-            <td>56</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-            <td>123</td>
-          </tr>
-          
-        </tbody>
-      </table>
-      </div>
-      
+    <div className="topStock">
+      <h1 className="topTitle"> Top sell and Buy Stock</h1>
+      <table className="GeneratedTable">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Sell</th>
+      <th>Quantity</th>
+      <th>Price</th>
+      <th>Buy</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+  </tbody>
+</table>
     </div>
   );
 }

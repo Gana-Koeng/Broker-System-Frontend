@@ -1,39 +1,46 @@
-
-
-.Top > th {
-  border: 21px solid #027b9a ; 
+.topStock{
+margin-top: 60px;
+width: 1120px;
+height: 1000px;
+margin-left: auto;
+margin-right: auto;
+background-color: #027b9a;
 }
-
-.Top >td {
+.topTitle{
   text-align: center;
-  
+  text-transform: uppercase;
+  color: gold;
+  margin-bottom: 30px;
 }
-
-
-.Top {
-  height:1000px ;
-  background-color: #027b9a ;
+table.GeneratedTable {
   width: 1120px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
+  background-color: wheat;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
 }
-.Top .demTable{
-  height:400px ;
-  width: 1100px;
-  border: 2px solid #b8bbbd ;
- 
-  
- 
+
+table.GeneratedTable td {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  height: 50px;
+  width: 100px;
+  padding: 3px;
 }
-.Top .top-table{
- 
-  margin-left: -20px ;
+table.GeneratedTable th{
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  height: 50px;
+  padding: 3px;
 }
-.Top .title-Top{
-  text-align: center;
-  padding-top: 30px;
-  font-size: 26px;
-  color: rgb(224, 190, 23);
-  text-decoration: underline;
+table.GeneratedTable thead {
+  background-color: #027b9a;
+  color: gold;
 }
+
+
+

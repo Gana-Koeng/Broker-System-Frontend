@@ -4,7 +4,7 @@ import "../style/Login.css";
 function Login() {
 
   return (
-   <div>
+<div className="loginbody">
       <div id="formContent" >
         <h2 className="active"> Sign In </h2>
         <a href="/Register"><h2 className="inactive underlineHover">Sign Up </h2></a>
@@ -23,8 +23,9 @@ function Login() {
         <div id="formFooter">
           {/* <a className="underlineHover" href="#">Forgot Password?</a> */}
         </div>
-        </div>
       </div>
+      </div>
+    
   )
 }
 

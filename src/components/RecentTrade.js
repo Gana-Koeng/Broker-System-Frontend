@@ -6,7 +6,7 @@ import React from "react";
 function RecentTrade() {
   return (
     <div className="Recent">
-      <h3 style={{textAlign:"center", color:"gold"}}>Last 5 Recent Trade per Stock</h3>
+      <h3 style={{textAlign:"center", color:"gold",textTransform:"uppercase"}}>Last 5 Recent Trade per Stock</h3>
 <table className="recentStock">
   <tr>
     <th>Time</th>

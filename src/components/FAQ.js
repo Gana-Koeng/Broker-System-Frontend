@@ -2,15 +2,16 @@ import React from "react"
 import "../style/FAQ.css"
 function FAQ() {
     return (
-        <div style={{ marginTop:"5%",marginBottom:"5%", marginLeft:"auto", marginRight:"auto" , width: "1120px" }}>
+        <div className="faq">
 <div className="faq-header">Frequently Asked Questions</div>
 
 <div className="faq-content">
   <div className="faq-question">
     <input id="q1" type="checkbox" className="panel"/>
     <div className="plus">+</div>
-    <label htmlFor="q1" className="panel-title">What is broker?</label>
-    <div className="panel-content">A broker is a person or firm who arranges transactions between a buyer and a seller for a commission when the deal is executed. A broker who also acts as a seller or as a buyer becomes a principal party to the deal.</div>
+    <label htmlFor="q1" className="panel-title">What is broker?
+    <br />A broker is a person or firm who arranges transactions between a buyer and a seller for a commission when the deal is executed. A broker who also acts as a seller or as a buyer becomes a principal party to the deal.
+    </label>
   </div>
   
   <div className="faq-question">
