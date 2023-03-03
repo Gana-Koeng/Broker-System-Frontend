@@ -1,0 +1,41 @@
+.Recent > table {
+  border: 2px solid rgb(0, 0, 0);
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:20px;
+ 
+ 
+}
+.Recent {
+  margin-top: 40px;
+
+ 
+}
+table.recentStock {
+  width: 1120px;
+  height: 150px;
+  background-color: wheat;
+  border-collapse: collapse;
+  border-style: solid;
+  color: #000000;
+}
+
+table.recentStock th {
+  text-align: center;
+  border-width: 2px;
+  padding: 3px;
+  border: none;
+}
+table.recentStock td{
+  text-align: left;
+  height: 40px;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 3px;
+}
+table.recentStock thead {
+  background-color: #027b9a;
+}
+

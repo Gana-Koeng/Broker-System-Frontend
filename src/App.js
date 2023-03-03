@@ -3,12 +3,12 @@ import "./style/App.css";
 import Navbar from "./layout/Navbar";
 import Footer from "./layout/Footer";
 import CurrentMarket from "./components/CurrentMarket";
-import RecentTrade from "./components/RecentTrade";
+import CurrentStock from "./components/CurrentStock";
 import Top from "./components/Top";
 import ListOrder from "./components/ListOrder";
 import ListTrade from "./components/ListTrade";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import Login from "./Auth/Login";
+import Register from "./Auth/Register";
 import OrderSell from "./components/OrderSell";
 import OrderBuy from "./components/OrderBuy";
 import OrderChange from "./components/OrderChange";
@@ -57,8 +57,8 @@ function App() {
           <Route exact path="/Order/Cancel">
             <OrderCancel />
           </Route>
-          <Route exact path="/RecentTrade">
-            <RecentTrade />
+          <Route exact path="/CurrentStock">
+            <CurrentStock />
           </Route>
           <Route exact path="/Top">
             <Top />

@@ -1,0 +1,35 @@
+.trade > table {
+    border: 2px solid rgb(0, 0, 0);
+    height: 800px;
+    text-align: left;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+   
+   
+  }
+  .trade {
+    margin-top: 60px;
+  
+   
+  }
+  table.TradeInfo {
+    width: 500px;
+    background-color: wheat;
+    border-collapse: collapse;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table.TradeInfo td, table.TradeInfo th {
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 3px;
+  }
+  
+  table.TradeInfo thead {
+    background-color: #027b9a;
+  }
+  

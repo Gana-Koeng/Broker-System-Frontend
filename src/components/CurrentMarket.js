@@ -1,4 +1,5 @@
-import "../style/a.css";
+import "../style/CurrentMarket.css";
+import logo from "../logo.jpg";
 import React from "react";
 import Clock from "react-live-clock";
 function CurrentMarket () {
@@ -23,7 +24,7 @@ function CurrentMarket () {
             </p>
           </div>
           <div className="Left">
-            <img src="https://cdn-icons-png.flaticon.com/128/444/444689.png" alt="" />
+            <img src={logo} alt="logo"  height={100} width={100} />
           </div>
         </div>
         <table className="blueTable">
@@ -64,18 +65,18 @@ function CurrentMarket () {
           <tbody>
             <tr>
               <td rowSpan={2}>ABC</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
+              <td id="top">1</td>
+              <td id="top">2</td>
+              <td id="top">3</td>
+              <td id="top">4</td>
+              <td id="top">5</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
+              <td id="bottom">1</td>
+              <td id="bottom">2</td>
+              <td id="bottom">3</td>
+              <td id="bottom">4</td>
+              <td id="bottom">5</td>
             </tr>
             <tr>
               <td rowSpan={2}>BIT</td>

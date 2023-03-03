@@ -1,0 +1,45 @@
+.quo > table {
+    border: 2px solid rgb(0, 0, 0);
+    height: 500px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+  }
+  .quo {
+    margin-top: 60px;
+  
+   
+  }
+  table.CurrentQuo {
+    width: 600px;
+    background-color: wheat;
+    border-collapse: collapse;
+    border-style: solid;
+    color: #000000;
+  }
+  
+  table.CurrentQuo td{
+    border-width: 2px;
+    height: 50px;
+    border-color: #000000;
+    border-style: solid;
+    padding: 3px;
+  }
+  table.CurrentQuo th {
+    height: 10px;
+    border-width: 2px;
+    width: 20px;
+    text-align: center;
+    background-color: #027b9a;
+    color: gold;
+    text-align: center;
+    border-color: #000000;
+    border-style: solid;
+    padding: 3px;
+  }
+  
+  table.CurrentQuo thead {
+    background-color: #027b9a;
+  }
+  

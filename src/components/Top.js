@@ -6,6 +6,9 @@ import React from "react";
 function App() {
   return (
     <div className="Top">
+      <div className="title-Top">               
+           <p>Top Buy & Sell Broker</p>                 
+       </div>
       <div className="top-table">
         <table class="demTable">
         <thead>
@@ -20,7 +23,7 @@ function App() {
             <th>Total</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className="Element">
           <tr>
             <td>1.</td>
             <td>500</td>

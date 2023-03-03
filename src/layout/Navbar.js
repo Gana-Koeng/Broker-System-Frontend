@@ -115,9 +115,9 @@ const Navbar = () => {
         <li>
           <a
             style={{ color: "white", paddingLeft: 13, textDecoration: "none" }}
-            href="/RecentTrade"
+            href="/CurrentStock"
           >
-            Recent Trade
+            CurrentStock
           </a>
         </li>
 

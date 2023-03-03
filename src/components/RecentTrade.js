@@ -1,31 +1,71 @@
+import "../style/RecentTrade.css";
+import Clock from "react-live-clock";
 import React from "react";
-import "../style/CurrentMarket.css";
-import Sell from "./Sell";
+//import React, { useEffect, useState } from "react";
+
+function RecentTrade() {
+  return (
+    <div className="Recent">
+      <h3 style={{textAlign:"center", color:"gold"}}>Last 5 Recent Trade per Stock</h3>
+<table className="recentStock">
+  <tr>
+    <th>Time</th>
+    <th>Execution Price</th>
+    <th>Change</th>
+    <th>%Change</th>
+    <th>Trading Volume</th>
+    <th>Trading Value (KHR)</th>
+  </tr>
+  <tr>
+    <td>
+      <Clock
+                format={"hh:mm:ss A"}
+                ticking={true}
+                timezone={"PhnomPenh/Pacific"}
+              /></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
 
-function Homepage() {
-    return (
-     <div className="Home-main"> 
-     
-          <div className='Parents'>
-            <div className='above-left'>
-                 < Sell />
-            </div>
-            <div className='above-right'>
-                 < Sell />
-            </div>
-            <div className='bottom-left'>
-                 < Sell />
-            </div>
-            <div className='bottom-right'>
-                 < Sell />
-            </div>
-          </div>
-
-          
-     </div>
-       
-         
-    )
+    </div>
+  );
 }
-export default Homepage;
+
+export default RecentTrade;

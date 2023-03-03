@@ -45,7 +45,7 @@ function Footer() {
           <div className="footer-menu">
             <ul id="menu-legal" className="footer-menu-list">
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                <a href="/RecentTrade">Recent Trade</a>
+                <a href="/CurrentStock">Current Stock</a>
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page">
                 <a href="/order/Sell">Make Order</a>
