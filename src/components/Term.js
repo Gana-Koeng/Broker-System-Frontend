@@ -2,24 +2,65 @@ import React from "react"
 
 function Term() {
     return (
-        <div style={{marginTop:"5%",marginBottom:"5%", marginLeft:"auto", marginRight:"auto" , width: "1120px"
-             }}>
-            <h1> Privacy Term for [YOUR SITE TITLE]</h1>
-            <p> If you require any more information or have any questions about our privacy Term, please feel free to contact us by email at [CONTACT@YOUREMAIL.COM].</p><p>At [YOUR SITE URL] we consider the privacy of our visitors to be extremely important. This privacy Term document describes in detail the types of personal information is collected and recorded by [YOUR SITE URL] and how we use it. </p>
-            <p> <b>Log Files</b>
-                <br /> Like many other Web sites, [YOUR SITE URL] makes use of log files. These files merely logs visitors to the site – usually a standard procedure for hosting companies and a part of hosting services's analytics. The information inside the log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date/time stamp, referring/exit pages, and possibly the number of clicks. This information is used to analyze trends, administer the site, track user's movement around the site, and gather demographic information. IP addresses, and other such information are not linked to any information that is personally identifiable. </p><p> <b>Cookies and Web Beacons</b><br />[YOUR SITE URL] uses cookies to store information about visitors' preferences, to record user-specific information on which pages the site visitor accesses or visits, and to personalize or customize our web page content based upon visitors' browser type or other information that the visitor sends via their browser. </p><p><b>DoubleClick DART Cookie</b><br /> </p><p>
-                → Google, as a third party vendor, uses cookies to serve ads on [YOUR SITE URL].<br /><br />
-                → Google's use of the DART cookie enables it to serve ads to our site's visitors based upon their visit to [YOUR SITE URL] and other sites on the Internet. <br /><br />
-                → Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy Term at the following URL – <a href="http://www.google.com/privacy_ads.html">http://www.google.com/privacy_ads.html</a> </p><p><b>Our Advertising Partners</b><br /> </p><p> Some of our advertising partners may use cookies and web beacons on our site. Our advertising partners include ……. <br /></p><ul>
-                <li>Google</li>
-                <li>Commission Junction</li>
-                <li>Amazon</li>
-                <li>Adbrite</li>
-                <li>Clickbank</li>
-                <li>Yahoo! Publisher Network</li>
-                <li>Chitika</li>
-                <li>Kontera</li>
+        <div style={{
+            marginTop: "5%", marginBottom: "5%", marginLeft: "auto", marginRight: "auto", width: "1120px"
+        }}>
+            <h2>Terms of Use of <span className="website_url">http://localhost:3000/</span></h2>
+
+            <p>Welcome to the <span className="website_name">Broker System</span>  website (the "Website").</p>
+
+            <p><span className="website_name">Broker System</span> provides this Website and Services (located at <span className="website_url">http://localhost:3000/</span>) to you subject to the notices, terms, and conditions set forth in these terms (the "Terms of Use"). In addition, when you use any of our Services, you will be subject to the rules, guidelines, policies, terms, and conditions applicable to such service, and they are incorporated into this Terms of Use by this reference.</p>
+
+            <p>These Terms of Use are effective as of <span className="date">[DATE]</span>.</p>
+
+            <p>Your eligibility for use of the Website is contingent upon meeting the following conditions:</p>
+
+            <ul>
+                <li>You are at least 18 years of age</li>
+                <li>You use the Website and Services according to these Terms of Use and all applicable laws and regulations determined by the state and country of residence</li>
+                <li>You provide complete and accurate registration information and maintain accurate registration information on the Webite</li>
+                <li>You agree and understand that <span className="website_name">Broker System</span> may, at any time, and without prior notice, revoke and/or cancel your access if you fail to meet these criteria or violate any portion of these Terms of Use</li>
             </ul>
+
+            <h3>Use of this Website</h3>
+
+            <p>In connection with your use of our Website, you must act responsibly and exercise good judgment. Without limiting the foregoing, you will not:</p>
+
+            <ul>
+                <li>Violate any local, state, provincial, national, or other law or regulation, or any order of a court</li>
+                <li>Infringe the rights of any person or entity, including without limitation, their intellectual property, privacy, publicity or contractual rights</li>
+                <li>Interfere with or damage our Services, including, without limitation, through the use of viruses, cancel bots, Trojan horses, harmful code, flood pings, denial-of-service attacks, packet or IP spoofing, forged routing or electronic mail address information or similar methods or technology</li>
+                <li>Use automated scripts to collect information or otherwise interact with the Services or the Website</li>
+                <li>Enter into this agreement on behalf of another person or entity without consent or the legal capacity to make such agreements as a representative of an organization or entity</li>
+            </ul>
+
+            <h3>Intellectual Property</h3>
+
+            <p>All code, text, software, scripts, graphics, files, photos, images, logos, and materials contained on this Website, or within the Services, are the sole property of <span className="website_name">Broker System</span>.</p>
+
+            <p>Unauthorized use of any materials contained on this Website or within the Service may violate copyright laws, trademark laws, the laws of privacy and publicity, and/or other regulations and statutes. If you believe that any of the materials infringe on any third party's rights, please contact <span className="website_name">Broker System</span> immediately at the address provided below.</p>
+
+            <h3>Third Party Websites</h3>
+
+            <p>Our Website may link you to other sites on the Internet or otherwise include references to information, documents, software, materials and/or services provided by other parties. These websites may contain information or material that some people may find inappropriate or offensive. This Terms of Service was created by <a href="https://www.termsusetemplate.com">Terms Use Template Generator</a>.</p>
+
+            <p>These other websites and parties are not under our control, and you acknowledge that we are not responsible for the accuracy, copyright compliance, legality, decency, or any other aspect of the content of such sites, nor are we responsible for errors or omissions in any references to other parties or their products and services. The inclusion of such a link or reference is provided merely as a convenience and does not imply endorsement of, or association with, the Website or party by us, or any warranty of any kind, either express or implied.</p>
+
+            <h3>Disclaimer of Warranty and Limitation of Liability</h3>
+
+            <p>The Website is provided "AS IS." appfigures, its suppliers, officers, directors, employees, and agents exclude and disclaim all representations and warranties, express or implied, related to this Website or in connection with the Services. You exclude <span className="website_name">Broker System</span> from all liability for damages related to or arising out of the use of this Website.</p>
+
+            <h3>Changes to these Terms of Use</h3>
+
+            <p><span className="website_name">Broker System</span> retains the right to, at any time, modify or discontinue, any or all parts of the Website without notice.</p>
+
+            <p>Additionally, <span className="website_name">Broker System</span> reserves the right, in its sole discretion, to modify these Terms of Use at any time, effective by posting new terms on the Website with the date of modification. You are responsible for reading and understanding the terms of this agreement prior to registering with, or using the Service. Your use of the Website and/or Services after any such modification has been published constitutes your acceptance of the new terms as modified in these Terms of Use.</p>
+
+            <h3>Governing Law</h3>
+
+            <p>These Terms of Use and any dispute or claim arising out of, or related to them, shall be governed by and construed in accordance with the internal laws of the <span className="country">kh</span> without giving effect to any choice or conflict of law provision or rule.</p>
+
+            <p>Any legal suit, action or proceeding arising out of, or related to, these Terms of Use or the Website shall be instituted exclusively in the federal courts of <span className="country">kh</span>.</p>
 
         </div>
 

@@ -38,11 +38,11 @@ function App() {
             <Deposit />
           </Route>
           <Route exact path="/Login">
-            
+            <div id="root"></div>
             <Login />
           </Route>
           <Route exact path="/Register">
-            
+            <div id="root"></div>
             <Register />
           </Route>
           <Route exact path="/Order/Sell">

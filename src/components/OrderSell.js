@@ -1,4 +1,6 @@
 
+
+
 import "../style/SignUp.css"
 
 import BuyForm from "./BuyForm";
@@ -30,6 +32,7 @@ function OrderSell() {
               style={{
                 color: "white",
                 paddingLeft: 13,
+                // textAlign:"center",
                 textDecoration: "none",
               }}
               href="/Order/Sell"

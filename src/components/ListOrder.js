@@ -1,6 +1,6 @@
 // import "../style/buy.css";
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Top from "./Top";
 
 function DataFetching() {

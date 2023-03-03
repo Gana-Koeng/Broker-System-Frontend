@@ -1,4 +1,5 @@
-import "../style/CurrentMarket.css";
+import React from "react";
+import "../style/RecentTrade.css";
 import Sell from "./Sell";
 
 

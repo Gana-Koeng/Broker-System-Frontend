@@ -1,14 +1,15 @@
-import "../style/a.css";
-
+import "../style/CurrentMarket.css";
+import logo from "../logo.jpg"
 import Clock from "react-live-clock";
-function CurrentMarket() {
- 
+function CurrentMarket () {
     return (
       <div className="CurrentMarket">
         <div className="title-CurrentMarket">
+         
           <div className="Center">
             <p>CSX Index</p>
           </div>
+           
           <div className="Right">
             <p>Date: <Clock format={"dddd:DD:MMM:yy"} ticking={true}
                 timezone={"Bangkok/Pacific"} /></p>
@@ -20,6 +21,9 @@ function CurrentMarket() {
                 timezone={"Bangkok/Pacific"}
               />
             </p>
+          </div>
+          <div className="Left">
+            <img src={logo} alt="logo"  height={100} width={100} />
           </div>
         </div>
         <table class="blueTable">
@@ -60,18 +64,18 @@ function CurrentMarket() {
           <tbody>
             <tr>
               <td rowSpan={2}>ABC</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
+              <td id="top">1</td>
+              <td id="top">2</td>
+              <td id="top">3</td>
+              <td id="top">4</td>
+              <td id="top">5</td>
             </tr>
             <tr>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>4</td>
-              <td>5</td>
+              <td id="bottom">1</td>
+              <td id="bottom">2</td>
+              <td id="bottom">3</td>
+              <td id="bottom">4</td>
+              <td id="bottom">5</td>
             </tr>
             <tr>
               <td rowSpan={2}>BIT</td>
